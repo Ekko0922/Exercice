@@ -151,3 +151,153 @@ body {
     font-weight: bold;
     margin-left: 70%;
 }
+*{
+    margin: 0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.deco{
+    margin-top: 1em;
+    margin-right: 1em; ;
+    margin-left: 1em;
+}
+
+.stat {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    margin-left: 1em;
+    gap: 1em;
+}
+
+.stat span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.stat small {
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+header{
+    background-image:url(img/istockphoto-1293366109-1024x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+header ,p ,h1{
+    color: white;
+}
+nav , span{
+    font-size: 2em;
+}
+h1 , p{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+p {
+    max-width: 600px;
+    font-size: 0.95em;
+    line-height: 1.4;
+    margin-left: 2em;
+}
+
+.navbar{
+    background-color: yellow;
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+nav span {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav ul:last-of-type {
+    margin-left: auto;
+}
+.button_slide {
+  color: #FFF;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.7s;
+  -moz-transition: ease-out 0.7s;
+  transition: ease-out 0.7s;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #D80286;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 60px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    color: white;
+}
+
+.footer-item i {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.footer-item span {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.footer-item p {
+    font-size: 0.9em;
+    color: #ccc;
+    margin: 0;
+}
