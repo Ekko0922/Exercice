@@ -155,7 +155,7 @@ body {
 footer {
     padding: 80px 60px;
     text-align: center;
-    background: #e5e5e5;
+    background: #eae6dd;
 }
 
 footer h4 {
@@ -211,3 +211,46 @@ footer p {
   text-transform: uppercase;
   transition: background 0.3s ease;
 }
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 60px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.footer__social a {
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.footer__credits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    background: #eae6dd;
+}
+
+.footer__credits span {
+    font-size: 12px;
+    color: #888;
+}
+
+.footer__links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: #888;
+    font-size: 12px;
+    transition: color 0.2s;
+}
+
